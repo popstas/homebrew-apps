@@ -13,7 +13,7 @@ cask "ccfzf-picker" do
   # Сборка идёт на macos-latest, то есть под Apple Silicon. Universal не
   # собирается намеренно — он удвоил бы вес приложения.
   depends_on arch: :arm64
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "ccfzf-picker.app"
 
