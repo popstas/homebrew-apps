@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: Homebrew/actions/setup-homebrew@master
+      - uses: Homebrew/actions/setup-homebrew@main
 
       # brew style и brew audit адресуют тап по имени, а не по пути к файлу,
       # поэтому чекаут надо сначала подсунуть в Library/Taps.
