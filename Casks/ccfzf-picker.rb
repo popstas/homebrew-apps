@@ -2,8 +2,8 @@ cask "ccfzf-picker" do
   # Версию и sha256 правит работа `update-homebrew` в
   # .github/workflows/release.yml репозитория popstas/ccfzf-picker — sed'ом по
   # этим двум строкам. Правки руками переживут ровно до следующего релиза.
-  version "0.18.0"
-  sha256 "61ce1eda784994f9cb57ce233ce2fa14e606872072909d4fcbe74f706d8f187c"
+  version "0.18.1"
+  sha256 "5d30fc71401294ed018980c38feaf7c7cacc37fd2e3ffada2f06847e0e9fb99a"
 
   url "https://github.com/popstas/ccfzf-picker/releases/download/v#{version}/ccfzf-picker-macos-arm64-#{version}.zip"
   name "ccfzf-picker"
