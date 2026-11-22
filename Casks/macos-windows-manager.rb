@@ -3,8 +3,8 @@ cask "macos-windows-manager" do
   # .github/workflows/release.yml репозитория popstas/macos-windows-manager —
   # sed'ом по этим двум строкам. Правки руками переживут ровно до следующего
   # релиза.
-  version "0.7.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "0.8.0"
+  sha256 "251d013960c6c012bb19ede947030b3402b6e471e3259b570c5644371494e06c"
 
   url "https://github.com/popstas/macos-windows-manager/releases/download/v#{version}/macos-windows-manager-macos-arm64-#{version}.zip"
   name "macos-windows-manager"
